@@ -1,0 +1,44 @@
+{
+  "escuela":{
+    "estudiantes" : [
+     {
+         "ID" : 201,
+         "nombre" : "Anna",
+         "apellido" : "Serra",
+         "email" : "anna@example.com"
+      },
+      {
+         "ID" : 202,
+         "nombre" : "Biel",
+         "apellido" : "Amengual",
+         "email" : "biel@example.com"
+      },
+      {
+         "ID" : 203,
+         "nombre" : "Joan",
+         "apellido" : "García",
+         "email" : "joan@example.com"
+       }
+      ],
+    "matriculación" : [
+      {
+          "ID" : 601,
+          "IdEstudiante" : 201,
+          "Modulo" : "M06",
+          "Nota" : 8.5
+      },
+      {
+          "ID" : 602,
+          "IdEstudiante" : 202,
+          "Modulo" : "M06",
+          "Nota" : 9.2
+      },
+      {
+          "ID" : 603,
+          "IdEstudiante" : 203,
+          "Modulo" : "M06",
+          "Nota" : 7.9
+      }
+     ]
+    }
+}
