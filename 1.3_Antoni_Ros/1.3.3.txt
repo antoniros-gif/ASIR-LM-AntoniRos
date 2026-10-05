@@ -1,0 +1,25 @@
+{
+  "Productos":{
+    "E-bike X" : [
+      {
+        "Tipo" : "Bicicleta",
+        "Autonomia" : "120km",
+        "Precio" : "1,299€"
+      }
+    ],
+    "City‑Scoot" : [
+      {
+        "Tipo" : "Patinete",
+        "Autonomia" : "45km",
+        "Precio" : "549€"
+      }
+    ],
+    "Eco‑Car Z" : [
+      {
+        "Tipo" : "Coche",
+        "Autonomia" : "410km",
+        "Precio" : "31 ,990 €"
+      }
+    ]
+  }
+}
