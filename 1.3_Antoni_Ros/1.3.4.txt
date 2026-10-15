@@ -1,0 +1,46 @@
+{
+  "Animales":{
+    "Tiburon Blanco" : [
+      {
+      "Tipo" : "Pez",
+      "Hábitat" : "Oceano",
+      "Tamaño" : "6,4 metros, 1900 kilogramos",
+      "Estado de conservación" : "En peligro",
+      "Caracteristicas" :[
+        {
+          "Primera Caracteristica" : "Depredador superior",
+          "Segunda Caracteristica": "Temido en los oceandos por su tamaño y ferocidad"
+        }
+        ]
+      }
+    ],
+    "Ballena Azul" : [
+      {
+        "Tipo" : "Mamifero Marino",
+        "Hábitat" : "Oceano",
+        "Tamaño" : "30 metros de longitud y 200,000 kilogramos",
+        "Estado de conservación" : "En peligro crítico",
+        "Caracteristicas" :[
+          {
+            "Primera Caracteristica" : "El animal más grande del planeta",
+            "Segunda Caracteristica" : "Se alimenta principalmente de krill"
+          }
+        ]
+      }
+    ],
+    "Tortuga Verde" : [
+      {
+        "Tipo" : " Reptil",
+        "Hábitat" : "Marino",
+        "Tamaño" : "1.5 metros de longitud, 150 kilogramos",
+        "Estado de conservación" : "Vulnerable",
+        "Caracteristicas" : [
+          {
+            "Primera Caracteristica" : "Se alimenta principalmente de algas marinas",
+            "Segunda Caracteristica" : "Realizan migraciónes de miles de kilometros"
+          }
+        ]
+      }
+    ]
+  }
+}
