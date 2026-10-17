@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="0001">
+    <empresa>
+        <nombre>Empresa Fictícia</nombre>
+        <direccion>Carrer Desconegut, 1</direccion>
+        <poblacion>Palma</poblacion>
+        <codigo_postal>07001</codigo_postal>
+        <cif>Q2826000</cif>
+        <telefono>971 12 34 56</telefono>
+        <fax>971 98 76 54</fax>
+    </empresa>
+    <cabecera>
+        <fecha>21-10-2022</fecha>
+        <pedido_num>1</pedido_num>
+        <forma_pago>EFECTIVO</forma_pago>
+    </cabecera>
+    <cliente>
+        <numero_cliente>001</numero_cliente>
+        <nombre>Carles Canals Gozálvez</nombre>
+        <direccion_envio>Carrer Major, 1. Inca - 07300 (Illes Balears)</direccion_envio>
+    </cliente>
+    <lineas_factura>
+        <linea>
+            <ref>MII001F</ref>
+            <descripcion>MICRO PENTIUM IV 3000MHZ</descripcion>
+            <cantidad>1</cantidad>
+            <precio unidad="EUR">250</precio>
+            <iva>16.0</iva>
+            <importe unidad="EUR">266.80</importe>
+        </linea>
+        <linea>
+            <ref>MB003</ref>
+            <descripcion>PLACA BASE QDI P4</descripcion>
+            <cantidad>1</cantidad>
+            <precio unidad="EUR">180</precio>
+            <iva>16.0</iva>
+            <importe unidad="EUR">208.80</importe>
+        </linea>
+        <linea>
+            <ref>MED876</ref>
+            <descripcion>DIMM DDR 512MB 3200</descripcion>
+            <cantidad>2</cantidad>
+            <precio unidad="EUR">40</precio>
+            <iva>16.0</iva>
+            <importe unidad="EUR">92.80</importe>
+        </linea>
+        <linea>
+            <ref>HD250G</ref>
+            <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+            <cantidad>4</cantidad>
+            <precio unidad="EUR">120</precio>
+            <iva>16.0</iva>
+            <importe unidad="EUR">556.80</importe>
+        </linea>
+    </lineas_factura>
+    <totales>
+        <base_imponible unidad="EUR">990.00</base_imponible>
+        <porcentaje_iva>16.0</porcentaje_iva>
+        <total_iva unidad="EUR">155.20</total_iva>
+        <total_factura unidad="EUR">1145.20</total_factura>
+    </totales>
+</factura>
