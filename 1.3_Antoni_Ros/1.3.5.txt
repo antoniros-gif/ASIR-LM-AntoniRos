@@ -1,0 +1,44 @@
+{
+  "encuestas":{
+    "encuesta1" : [
+      {
+        "id" : 1,
+        "título" : "Encuesta de satisfacción",
+        "obligatoria" : "true",
+        "Preguntas" :[
+          {
+            "orden" : 1,
+            "titulo" : "¿Estas satisfecho con este módulo?",
+            "tipo" : "selección múltiple",
+            "opciones" : ["Muy satisfecho","satisfecho","Poco satisfecho","Insatisfecho"]
+          },
+          {
+            "orden" : 2,
+            "titulo" : "¿Que cambiarias de este módulo?",
+            "tipo": "texto libre"
+          }
+        ]
+      }
+    ],
+   "encuesta2" : [
+    {
+      "id" : 2,
+      "título" : "Encuesta de fruta",
+      "obligatoria" : "false",
+      "Preguntas" : [
+        {
+          "orden" : 1,
+          "título" : "Que tan fan de la fruta te consideras:",
+          "tipo" : "selección múltiple",
+          "opciones" : ["Muy fan","Fan","Meh","No me gusta"]
+        },
+        {
+          "orden" : 2,
+          "titulo" : "¿Cual es tu favorita?",
+          "tipo" : "texto libre"
+        }
+      ]
+    }
+   ]
+  }
+}
