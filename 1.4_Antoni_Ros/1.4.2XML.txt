@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correo_electronico>
+    <cabecera>
+        <asunto>Notas de la presentación de ayer</asunto>
+        <remitente>
+            <nombre>Carles Canals</nombre>
+            <email>cgc@paucasesnovescifp.cat</email>
+        </remitente>
+        <destinatarios>
+            <destinatario tipo="principal">
+                <nombre>Para mí</nombre>
+                <email>usuario@paucasesnovescifp.cat</email>
+            </destinatario>
+            <destinatario tipo="copia">
+                <nombre>Alumnado</nombre>
+                <email>alumnat@paucasesnovescifp.cat</email>
+            </destinatario>
+        </destinatarios>
+    </cabecera>
+    <contenido>
+        <saludo>¡Buenos días!</saludo>
+        <cuerpo>Gracias por vuestra asistencia a la presentación de ayer sobre los contenidos de la asignatura. Espero haber resuelto vuestras dudas. Adjuntas están mis notas sobre la presentación, por si deseáis compartirlas con los alumnos que no pudieron asistir.</cuerpo>
+        <cierre>¡Gracias a todos y todas! Carles Canals</cierre>
+        <firma>
+            <nombre>Carles Canals</nombre>
+            <cargo>Profesor del Departamento de Informática del CIFP Pau Casesnoves</cargo>
+        </firma>
+    </contenido>
+    <adjuntos>
+        <adjunto>
+            <nombre_archivo>notas-presentacio.pdf</nombre_archivo>
+            <tamanio>30K</tamanio>
+        </adjunto>
+    </adjuntos>
+</correo_electronico>

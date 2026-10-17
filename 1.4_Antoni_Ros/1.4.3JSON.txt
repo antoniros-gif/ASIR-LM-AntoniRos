@@ -1,0 +1,40 @@
+{
+  "gestion_modulo": {
+    "modulo": {
+      "nombre": "Lenguaje de Marcas y Sistemas de Gestión de información",
+      "ciclo_formativo": "ASIX",
+      "horas_semanales": 4,
+      "caracter": "obligatorio",
+      "fecha_inicio": "2023-09-25",
+      "fecha_fin": "2024-06-30"
+    },
+    "alumnos": [
+      {
+        "nif": "12345678A",
+        "nombre_completo": "Carles Canals Gozálvez",
+        "telefono": "971000000",
+        "email": "cgc@paucasesnovescifp.cat",
+        "direccion": {
+          "calle": "C/ Sense Nom, 1",
+          "localidad": "Inca",
+          "codigo_postal": "07300"
+        },
+        "faltas_asistencia": 10,
+        "calificacion": "no apto"
+      },
+      {
+        "nif": "87654321Z",
+        "nombre_completo": "Joana Quetglas Caimari",
+        "telefono": "971123456",
+        "email": "qcj@paucasesnovescifp.cat",
+        "direccion": {
+          "calle": "C/ Sense sortida, 3",
+          "localidad": "Sóller",
+          "codigo_postal": "07100"
+        },
+        "faltas_asistencia": 0,
+        "calificacion": "apto"
+      }
+    ]
+  }
+}

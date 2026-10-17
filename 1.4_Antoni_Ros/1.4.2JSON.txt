@@ -1,0 +1,38 @@
+{
+  "correo_electronico": {
+    "cabecera": {
+      "asunto": "Notas de la presentación de ayer",
+      "remitente": {
+        "nombre": "Carles Canals",
+        "email": "cgc@paucasesnovescifp.cat"
+      },
+      "destinatarios": [
+        {
+          "tipo": "principal",
+          "nombre": "Para mí",
+          "email": "usuario@paucasesnovescifp.cat"
+        },
+        {
+          "tipo": "copia",
+          "nombre": "Alumnado",
+          "email": "alumnat@paucasesnovescifp.cat"
+        }
+      ]
+    },
+    "contenido": {
+      "saludo": "¡Buenos días!",
+      "cuerpo": "Gracias por vuestra asistencia a la presentación de ayer sobre los contenidos de la asignatura. Espero haber resuelto vuestras dudas. Adjuntas están mis notas sobre la presentación, por si deseáis compartirlas con los alumnos que no pudieron asistir.",
+      "cierre": "¡Gracias a todos y todas! Carles Canals",
+      "firma": {
+        "nombre": "Carles Canals",
+        "cargo": "Profesor del Departamento de Informática del CIFP Pau Casesnoves"
+      }
+    },
+    "adjuntos": [
+      {
+        "nombre_archivo": "notas-presentacio.pdf",
+        "tamanio": "30K"
+      }
+    ]
+  }
+}

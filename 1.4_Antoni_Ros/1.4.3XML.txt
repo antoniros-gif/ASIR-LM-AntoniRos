@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gestion_modulo>
+    <modulo>
+        <nombre>Lenguaje de Marcas y Sistemas de Gestión de información</nombre>
+        <ciclo_formativo>ASIR</ciclo_formativo>
+        <horas_semanales>4</horas_semanales>
+        <caracter>obligatorio</caracter>
+        <fecha_inicio>2023-09-25</fecha_inicio>
+        <fecha_fin>2024-06-30</fecha_fin>
+    </modulo>
+    <alumnos>
+        <alumno>
+            <nif>12345678A</nif>
+            <nombre_completo>Carles Canals Gozálvez</nombre_completo>
+            <telefono>971000000</telefono>
+            <email>cgc@paucasesnovescifp.cat</email>
+            <direccion>
+                <calle>C/ Sense Nom, 1</calle>
+                <localidad>Inca</localidad>
+                <codigo_postal>07300</codigo_postal>
+            </direccion>
+            <faltas_asistencia>10</faltas_asistencia>
+            <calificacion>no apte</calificacion>
+        </alumno>
+        <alumno>
+            <nif>87654321Z</nif>
+            <nombre_completo>Joana Quetglas Caimari</nombre_completo>
+            <telefono>971123456</telefono>
+            <email>qcj@paucasesnovescifp.cat</email>
+            <direccion>
+                <calle>C/ Sense sortida, 3</calle>
+                <localidad>Sóller</localidad>
+                <codigo_postal>07100</codigo_postal>
+            </direccion>
+            <faltas_asistencia>0</faltas_asistencia>
+            <calificacion>apte</calificacion>
+        </alumno>
+    </alumnos>
+</gestion_modulo>
