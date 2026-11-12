@@ -1,0 +1,105 @@
+<!doctype HTML>
+<html lang="ca">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptes de cuina</title>
+    <!-- ESTILOS CSS DE LA PAGINA -->
+    <style>
+        /*Color de fondo*/
+        body {
+            background-color:#FFFFEF;
+        }
+        /*Color de los titulos*/
+        h1{
+            color:#228c73;
+        }
+        /*Diferentes tamaños de letras*/
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 28px
+        }
+        p{
+            font-size: 18px
+        }
+        /*Estilo de la tabla no ordnada*/
+        ul{
+            list-style-type: square;
+            border: 2px solid #228c73;
+        }
+        /* Color de las filas pares de la tabla */
+        tr:nth-child(even){
+            background-color: #d9f0e8;
+        }
+          /* Color de las filas impares de la tabla */
+        tr:nth-child(odd){
+            background-color: #a8d5c5;
+        }
+        /* Estilo del título de la tabla */
+        caption{
+            font-size: 24px;
+            font-weight: bold;
+            color: #228c73;
+        }
+        /* Color para el enlace */
+        a:link{
+            color: #228c73;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Les millors receptes</h1>
+        <h2>Cuina casolana i tradició</h2>
+    </header>
+    <section>
+        <h2>Ingredients de la paella</h2>
+        <ul>
+            <li>Arròs</li>
+            <li>Pollastre</li>
+            <li>Tomàquet</li>
+        </ul>
+    </section>
+
+    <figure>
+        <img src="imatges/paella.jpg" width="400" alt="Paella tradicional cocinándose">
+        <figcaption>Plat de paella acabat</figcaption>
+    </figure>
+
+    <section>
+        <h2>Passos de preparació</h2>
+        <ol>
+            <li>Sofregir el pollastre.</li>
+            <li>Afegir el tomàquet.</li>
+            <li>Incorporar l'arròs i el brou.</li>
+        </ol>
+    </section>
+    <!-- Taula d'informació sobre la recepta -->
+    <table>
+        <caption>Taula d'informació sobre la recepta</caption>
+        <tr>
+            <th>Ingrediente</th>
+            <th>Cantidad</th>
+        </tr>
+            <td>Arroz</td>
+            <td>400g</td>
+        <tr>
+            <td>Pollo</td>
+            <td>500g</td>
+        </tr>
+        <tr>
+            <td>Tomate</td>
+            <td>200g</td>
+        </tr>
+    </table>
+
+    <p>
+        <a href="https://www.receptes.cat" target="_blank">Més receptes</a>
+    </p>
+
+    <footer>
+        <p>Autora: Maria García · 2025</p>
+    </footer>
+</body>
+</html>
